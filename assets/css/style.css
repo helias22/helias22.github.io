@@ -14649,7 +14649,7 @@ div#featured-project-carousel {
   }
 }
 .experience-style-two .experience-image {
-  max-width: 250px;
+  max-width: 220px;
   height: auto;
   border-radius: 8px;
   transition: var(--transition);
