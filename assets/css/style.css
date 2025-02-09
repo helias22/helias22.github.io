@@ -11253,13 +11253,16 @@ body.template-color-1 {
   }
 }
 .sticky .header-wrapper .logo img {
-  max-width: 90%;
+  max-width: 30%;
+  padding-top: 0%;
 }
 
 .logo a {
   display: inline-block;
 }
 .logo a img {
+  max-width: 70%;
+  padding-top: 15%;
   transition: 0.3s;
 }
 @media only screen and (max-width: 767px) {
@@ -17186,7 +17189,7 @@ span.sr-only {
   width: 100%;
 }
 .footer-area .logo a img {
-  max-height: 100px;
+  max-width: 40%;
 }
 
 /*-----------------------
