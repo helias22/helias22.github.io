@@ -1,3 +1,43 @@
+.company-logo { width: 36px; height: 36px; object-fit: contain; margin-right: 10px; border-radius: 6px; }
+.resume-single-list .heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.resume-single-list .heading .title { 
+    display: flex; 
+    align-items: flex-start; 
+    gap: 12px; 
+    flex: 1;
+    min-width: 0;
+}
+
+.title-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 0;
+}
+
+.title-content h4 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.title-content span {
+    margin: 0;
+    line-height: 1.2;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+.resume-single-list .heading .date-of-time {
+    flex-shrink: 0;
+    margin-left: 20px;
+    text-align: right;
+}
 .paper-card { background: var(--background-color-1); box-shadow: var(--shadow-1); border-radius: 10px; padding: 18px; }
 .paper-card a { color: var(--color-lightn); text-decoration: none; display: block; }
 .paper-card h6 { color: var(--color-primary); margin-bottom: 6px; }
